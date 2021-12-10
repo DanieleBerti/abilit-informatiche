@@ -22,3 +22,4 @@ print("var1[5]",var1[5])
 a= 'materia'
 print(a+a+a)
 
+print("Quanto fa %d + %d ? %d" %(4,4,8))
