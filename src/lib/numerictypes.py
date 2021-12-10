@@ -23,3 +23,8 @@ a= 'materia'
 print(a+a+a)
 
 print("Quanto fa %d + %d ? %d" %(4,4,8))
+
+stringa='Ciao Mario'
+print(stringa.replace('o','e',1))
+print(stringa.replace('o','e',2))
+print(stringa.strip('C'))
