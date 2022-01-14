@@ -110,3 +110,7 @@ print(result_list)
 g, v = zip(*result_list)
 print('g =', g)
 print('v =', v)
+
+
+prod=lambda x,y: x*y
+print("prodotto", prod(15,13))
