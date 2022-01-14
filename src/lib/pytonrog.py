@@ -81,10 +81,32 @@ class oggetti:
   self.lato = lato
 
 g1=oggetti("quadrato",5)
-g2=oggetti("cerchio",5)
 print(g1.forma)
 
-def myfunc(self):
- print("parametro che identifica oggetti" + self.lato)
 
+def divide(x, y):
+ try:
+  result = x / y
+ except ZeroDivisionError:
+  print("division by zero!")
+ else:
+  print("result is", result)
+ finally:
+  print("executing finally clause")
+divide(1, 3)
+divide(5,0)
 
+j=0
+for i in range(1,10):
+  j=j+i
+print("somma dei primi 9 naturali")   
+print(j)
+
+giorni = ['Lunedì', 'Martedì', 'Mercoledì']
+value = [1, 2, 3]
+result = zip(giorni, value)
+result_list = list(result)
+print(result_list)
+g, v = zip(*result_list)
+print('g =', g)
+print('v =', v)
