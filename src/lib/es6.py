@@ -1,7 +1,6 @@
 from random import randrange
 a=True
 s=True
-cont=0
 print("Indovina il numero naturale che sto pensando, esso è compreso tra 1 e 10, estremi inclusi!")
 while a is True:
   while s is True: 
