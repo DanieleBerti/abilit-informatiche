@@ -1,13 +1,10 @@
+def funzione(lib,lista=[]):
+ if lib in lista:
+  print("Elemento trovato nella lista fornita con indice",lista.index(lib))
+ else:
+  print("Elemento non trovato nella lista fornita")
 
-stringa = input("Inserisci stringa: ")
-a = {}
-for ch in stringa:
-    if ch in a:
-        a[ch] += 1
-    else:
-        a[ch] = 1
 
-import pprint
-
-pp = pprint.PrettyPrinter(indent=1, width=10)
-pp.pprint(a)
+Mesi = ["Gennaio", "Febbraio", "Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"]
+funzione(lib = "Ottobre", lista = Mesi)
+funzione(lib = "Mela", lista = Mesi)
