@@ -69,6 +69,7 @@ while a is True:
             s=True
           else:
             a=False
+          break  
         else:
          print("risposta non valida")      
     else:
