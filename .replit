@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 src/lib/es5.py"
+run = "python3 src/lib/es6.py"
