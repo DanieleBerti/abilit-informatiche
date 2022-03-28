@@ -1,4 +1,4 @@
-def funzione(lib,lista=[]):
+def funzione(el,lista=[]):
  if lib in lista:
   print("Elemento trovato nella lista fornita con indice",lista.index(lib))
  else:
@@ -6,5 +6,5 @@ def funzione(lib,lista=[]):
 
 
 Mesi = ["Gennaio", "Febbraio", "Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"]
-funzione(lib = "Ottobre", lista = Mesi)
-funzione(lib = "Mela", lista = Mesi)
+funzione(el = "Ottobre", lista = Mesi)
+funzione(el = "Mela", lista = Mesi)
