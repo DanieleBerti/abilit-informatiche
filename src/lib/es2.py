@@ -4,6 +4,6 @@ def funzione(el,lista=[]):
  else:
   print("Elemento non trovato nella lista fornita")
 #esempi
-#Mesi = ["Gennaio", "Febbraio", "Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"]
-#funzione(el = "Ottobre", lista = Mesi)
-#funzione(el = [1,2,3], lista = Mesi)
+Mesi = ["Gennaio", "Febbraio", "Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"]
+funzione(el = "Ottobre", lista = Mesi)
+funzione(el = [1,2,3], lista = Mesi)
