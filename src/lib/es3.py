@@ -1,29 +1,24 @@
-
-#stringa = input("Inserisci stringa: ")
-#a = {}
-#for ch in stringa:
-    #if ch in a:
-        #a[ch] += 1
-    #else:
-        #a[ch] = 1
-
-#import pprint
-
-#pp = pprint.PrettyPrinter(indent=1, width=10)
-#pp.pprint(a)
-def draw_histogram(histogram_dict):
-  for key in histogram_dict:
-    if histogram_dict[key] >= 1:
-      print (key + ": " + histogram_dict[key]*"*")
-
+stringa = input("Inserisci stringa: ")
+a = {}
+for ch in stringa:
+    if ch in a:
+        a[ch] = a[ch] + 1
+    else:
+        a[ch] = 1
+print(a)
+#######################################à
+def histo(b):
+  for key in b:
+    if b[key] >= 1:
+      print (key + ": " + b[key]*"*")
 with open("lipsum.txt") as f:
     for line in f:
      a = {}
      for ch in line:
       if ch in a:
-          a[ch] += 1
+          a[ch] = a[ch] + 1
       else:
           a[ch] = 1
      if '\n' in a:
        a.pop('\n')
-     draw_histogram(a)
+     histo(a)
